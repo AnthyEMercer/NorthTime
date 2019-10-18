@@ -1,0 +1,67 @@
+.login1{
+    margin-top: 500px;
+    text-align: center;
+    height: 100%;
+    vertical-align: center;
+}
+.loginid{
+    font-size: 60px;
+}
+.logintt{
+    position: fixed;
+    padding-left: 20px;
+    line-height: 110px;
+    letter-spacing: 30px;
+    top: 0;
+    height: 110px;
+    color: white;
+    background-color: #3495FF;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+}
+
+.logininput{
+    height: 80px;
+    width: 650px;
+    font-size: 55px;
+    padding-left: 25px;
+    border-radius: 60px;
+    margin-bottom: 50px;
+    border: #3495FF 2px solid;
+}
+
+input[type="text"]:focus{
+    outline: none;
+}
+input[type="password"]:focus{
+    outline: none;
+}
+
+button[type="submit"]:focus{
+    outline: none;
+    background-color: #3366cc;
+}
+
+.loginbut {
+    background-color: #3495FF;
+    color: white;
+    padding-left: 40px;
+    margin-top: 30px;
+    height: 130px;
+    width: 600px;
+    letter-spacing: 40px;
+    text-align: center;
+    font-size: 70px;
+    line-height: 130px;
+    border-radius: 130px;
+    border: none;
+    box-shadow: 0 0 6px 6px #3366CC;
+}
+
+.logintop{
+    font-size: 100px;
+    color: #0066CC;
+    font-weight: 500;
+    margin-bottom: 70px;
+}

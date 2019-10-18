@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>出货</title>
+    <link href="out.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="outtop">出货</div>
+    <form action="out.php" method="post">
+        <div style="min-height: 400px"></div>
+        <b class="outb1">货物种类</b>
+        <div style="min-height: 10px"></div>
+        <select name="gd" class="outsel">
+            <option value="1">货物1</option>
+            <option value="2">货物2</option>
+            <option value="3">货物3</option>
+        </select>
+        <div></div>
+        <b class="outb1">出货数量</b>
+        <div style="min-height: 10px"></div>
+        <input name="sum" type="number" class="outin">
+        <div></div>
+        <button type="submit" value="出货" class="outbut">确认提交</button>
+    </form>
+</body>
+</html>

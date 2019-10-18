@@ -1,0 +1,55 @@
+.storetop{
+    margin-left: -8px;
+    width: 100%;
+    position: fixed;
+    padding-left: 20px;
+    line-height: 110px;
+    letter-spacing: 30px;
+    top: 0;
+    height: 110px;
+    color: white;
+    background-color: #3495FF;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+}
+
+.storein{
+    margin-top: 90px;
+    margin-left: 110px;
+}
+.storeset{
+    background-color: #8db2e3;
+}
+
+.storet{
+    text-align: center;
+    font-size: 50px;
+    border-color: #3366CC;
+}
+
+.store{
+    text-align: center;
+    margin-top: 400px;
+}
+
+.storea{
+    background-color: #3495FF;
+    color: white;
+    height: 100px;
+    width: 600px;
+    font-size: 60px;
+    margin-top: 70px;
+    margin-left: 170px;
+    line-height: 100px;
+    letter-spacing: 30px;
+    padding-left: 30px;
+    border-radius: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.storea:active{
+    background-color: #3366cc;
+}
